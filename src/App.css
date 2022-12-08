@@ -1,8 +1,16 @@
 .App {
   text-align: center;
+  font-family: sans-serif;
+  color: orange;
+};
+.user-pic {
+  height: 150px;
+  /* width: 150px; */
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  object-fit: cover;
 }
-
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +43,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
